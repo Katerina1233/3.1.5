@@ -1,0 +1,9 @@
+@use './doc' as *;
+
+body {
+  background-color: $color-background;
+	color: #1B1C21;
+  font-size: 16px;
+  font-family: 'TT Lakes', sans-serif;
+  font-weight: 500;
+}

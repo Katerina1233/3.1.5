@@ -1,0 +1,15 @@
+@use '../common/doc' as *;
+
+.layout {
+  @media screen and (min-width: $breakpoint-desktop) {
+    display: flex;
+  }
+}
+
+.layout__content {
+  width: 100%;
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    margin-left: 0; 
+  }
+}
